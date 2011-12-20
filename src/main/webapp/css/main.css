@@ -1,0 +1,113 @@
+.even{
+    background-color: #f0ffff;
+}
+.odd{
+    background-color: white;
+}
+
+.pager{
+    float: right;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.pager span{
+    vertical-align:middle;
+    width:16px;
+    height: 16px;
+}
+
+.products-menu {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 0;
+}
+.products-menu li{
+    padding-left: 20px;
+}
+
+span.vertical-align-helper{
+    height: 100%; width: 0; display: inline;
+}
+
+.current-page{
+    text-decoration: none;
+    margin: 0 10px;
+    width: 0;
+}
+.prev-page{
+    background: url("../img/prevPage.gif") no-repeat;
+    cursor: pointer;
+}
+
+.next-page{
+    background: url("../img/nextPage.gif") no-repeat;
+    cursor: pointer;
+}
+
+.left-container{
+    float: left;
+    height: 100%;
+    width:200px;
+    border-right: 2px solid #dcdcdc;
+    padding-top: 5px;
+    background-color: #f5f5f5;
+}
+
+.product-groups-title{
+    font-size: 14px;
+    padding: 10px 0px 0px 10px;
+    font-weight: bold;
+}
+
+.right-container{
+    width: 70%;
+    display: inline-block;
+    padding: 10px 30px;
+}
+.group-item{
+    padding: 3px 0;
+}
+.group-item:hover{
+    background-color: rgb(153, 153, 153);
+}
+.group-item
+,.sortable-column{
+    cursor: pointer;
+    color: #600360;
+    text-decoration: none
+}
+
+.selected-group-indicator{
+    margin-left:-20px;
+    display: none;
+    background-color: red;
+    width: 3px;
+    height: 14px;
+    margin-right: 13px;
+}
+.invisible{
+    display: none;
+}
+.chosen-group-title{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.products-table{
+    width: 100%;
+    text-align: left;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.products-table th{
+    padding: 3px;
+    background-color: #e7e8e6;
+    border: 1px solid black;
+}
+
+.products-table td{
+    padding: 2px;
+    border: 1px solid black;
+}
